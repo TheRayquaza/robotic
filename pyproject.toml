@@ -1,0 +1,13 @@
+[project]
+name = "robotic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "evdev-binary>=1.9.2",
+    "feetech-servo-sdk>=1.0.0",
+    "jupyter>=1.1.1",
+    "lerobot>=0.4.1",
+    "pip>=25.3",
+]

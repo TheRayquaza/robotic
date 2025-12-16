@@ -1,0 +1,14 @@
+lerobot-record \
+  --robot.type="so101_follower" \
+  --dataset.repo_id="therayquaza/eval_test" \
+  --dataset.single_task="un test de xxx" \
+  --robot.port="/dev/ttyACM0" \
+  --robot.cameras='{"up": {"type": "opencv", "index_or_path": "/dev/video0", "width": 640, "height": 480, "fps": 30}, "side": {"type": "opencv", "index_or_path": "/dev/video3", "width": 640, "height": 480, "fps": 30}}' \
+  --robot.id="my_awesome_follower_arm" \
+  --policy.push_to_hub="true" \
+  --display_data="false" \
+  --teleop.type="so101_leader" \
+  --teleop.port="/dev/ttyACM1" \
+  --teleop.id="my_awesome_leader_arm" \
+  --policy.path="therayquaza/test" \
+  --policy.device="cuda:0"  # Assuming you're using a GPU device
