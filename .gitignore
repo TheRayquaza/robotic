@@ -1,0 +1,109 @@
+# =========================
+
+# macOS
+
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# =========================
+
+# Nix / NixOS
+
+# =========================
+
+# Nix build results & profiles
+
+/result
+/result-*
+/.nix-profile
+/nix-shell
+/.direnv
+/.envrc
+
+# nix flakes
+
+/flake.lock.bak
+
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing / tooling
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Shell / General
+
+# =========================
+
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Environment & secrets
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# Editors / IDEs
+
+# =========================
+
+.vscode/
+.idea/
+*.iml
+
+# =========================
+
+# OS / Misc
+
+# =========================
+
+Thumbs.db
+ehthumbs.db
